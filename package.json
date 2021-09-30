@@ -8,11 +8,6 @@
     "offline": "npx sls offline --stage dev",
     "eslint-fix": "npx eslint 'src/**/*.{ts,js}' --fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run eslint-fix"
-    }
-  },
   "dependencies": {
     "@middy/core": "^1.5.2",
     "@middy/http-json-body-parser": "^1.5.2"
